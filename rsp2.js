@@ -7,6 +7,7 @@ var rsp = {
 // Object.entries -> 객체를 2차원 배열로 바꿔주는 것
 // indexOf 1차원 배열
 // find,findIndex 2차원 배열
+
 function computerChoice(imageCoord) {
   return Object.entries(rsp).find(function(v) {
     return v[1] === imageCoord;
